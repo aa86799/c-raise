@@ -19,7 +19,12 @@ SET_TARGET_PROPERTIES(hello PROPERTIES VERSION 1.2 SOVERSION 1)
 
 #第一个是执行程序名字，后面可关联多个源文件
 #add_executable(c_raise main.c
-add_executable(c_raise c01/指针步长.c
+add_executable(c_raise
+#        c01/指针步长.c
+#        c01/指针的间接赋值.c
+#        c01/指针的输入和输出特性.c
+#        c01/字符串操作.c
+        c01/格式化字符串_sprintf.c
 
         )
 
