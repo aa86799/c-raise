@@ -26,7 +26,8 @@ add_executable(c_raise
 #        c01/字符串操作.c
 #        c01/格式化字符串_sprintf.c
 #        c02/CallocMallocRealloc.c.c
-        c02/sscanf.c
+#        c02/sscanf.c
+        c02/查找子串.c
 
         )
 
