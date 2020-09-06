@@ -32,9 +32,14 @@ add_executable(c_raise
 #        c02/二级指针做函数参数_输出特性.c
 #        c02/二级指针练习.c
 #        c03/一维数组.c
-        c03/二维数组.c
-
-        )
+#        c03/二维数组.c
+#        c03/指针数组_选择排序.c
+#        c03/结构体嵌套一级指针.c
+#        c03/结构体嵌套一级指针复写.c
+#        c03/结构体嵌套二级指针.c
+#        c04/函数指针.c
+#        c04/静态链表.c
+        c04/LinkList.c c04/LinkList.h c04/动态链表.c)
 
 #向执行程序，链接 静态、动态 库
 #TARGET_LINK_LIBRARIES(c_raise hello_static)
